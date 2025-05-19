@@ -13,7 +13,7 @@ body{
     flex-direction: column;
 }
 .section-message{
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
     width:85vw;
 }
@@ -28,7 +28,7 @@ body{
 .section-message>p{
     text-align: center;
     color: #6C727F;
-    font-weight: 00;
+    font-weight: 400;
 }
 
 .form-section{
@@ -72,4 +72,30 @@ body{
 button:hover{
     box-shadow: 4px 4px 4px #6C727F;
     cursor: pointer;
+}
+
+/* media query for desktop view  */
+@media(min-width:550px){
+    .hero{
+        width:80vw;
+        position: fixed;
+        margin:auto;
+        inset:0;
+    }
+    .section-message{
+        width:60vw;
+    }
+    
+    .form-section{
+        width:40vw;
+    }
+    .form-section>form>input{
+        width:40vw;
+
+    }
+    .form-section>form>button{
+        width:40vw;
+    }
+    
+    
 }
