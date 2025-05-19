@@ -96,6 +96,28 @@ button:hover{
     .form-section>form>button{
         width:40vw;
     }
+
     
-    
+}
+/* Changing Typography for biggerscreen */ 
+@media(min-width:1025px){
+    .hero{
+        width:80vw;
+        margin-top: -5vh;
+    }
+    .section-message{
+        margin-bottom: 2vh;
+         width:65vw;
+    }
+    .section-message>h1{
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin-bottom: 2vh;
+    }
+    .section-message>p{
+        font-size:1.5rem
+    }
+    button{
+        font-size: 1rem;
+    }
 }
